@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="https://dimalos.com/html-crash-course/forms/" method="post">
+        <p>
+            <label for="pizzaSauce">Sauce</label>
+            <select name="sauce" id="pizzaSauce">
+                <option value="tomato">Tomato</option>
+                <option value="bbq" selected>BBQ</option>
+                <option value="pesto">Pesto</option>
+            </select>
+        </p>
+        <hr>
+        <p>
+            <input type="radio" name="pizzaSize" value="small" id="pizzaSizeSmall">
+            <label for="pizzaSizeSmall">Small</label>
+        </p>
+        <p>
+            <input type="radio" name="pizzaSize" value="medium" id="pizzaSizeMedium" checked>
+            <label for="pizzaSizeMedium">Medium</label>
+        </p>
+        <p>
+            <input type="radio" name="pizzaSize" value="large" id="pizzaSizeLarge">
+            <label for="pizzaSizeLarge">Large</label>
+        </p>
+
+        <hr>
+        <p>
+            <label for="topping_cheese">Cheese</label>
+            <input type="checkbox" name="topping[]" value="cheese" id="topping_cheese" checked>
+        </p>
+        <p>
+            <label for="topping_mushrooms">Mushrooms</label>
+            <input type="checkbox" name="topping[]" value="mushrooms" id="topping_mushrooms">
+        </p>
+        <p>
+            <label for="topping_pepperoni">Pepperoni</label>
+            <input type="checkbox" name="topping[]" value="pepperoni" id="topping_pepperoni">
+        </p>
+        <p>
+            <label for="topping_olives">Olives</label>
+            <input type="checkbox" name="topping[]" value="olives" id="topping_olives">
+        </p>
+        <p>
+            <input type="submit" value="Just log in">
+        </p>
+    </form>
+</body>
+</html>
